@@ -3,11 +3,11 @@ Centralized, version-controlled repository containing the complete technical blu
 
 ## Core Architecture Flow
 ```text
-1.  **Service Request**: The Farmer initiates a request from a feature phone using the USSD menu.
-2. **Field Execution**: The Field Expert arrives on-site, completes a secure handshake code, and logs soil diagnostics offline via the PWA app.
-3. **Data Synchronization**: The PWA automatically caches the logs locally and syncs them to the secure online databases when network coverage returns.
-4. **Cloud Processing**: The Cloud AI Engine analyzes the incoming data.
-5. **Output Delivery**: The AI engine instantly sends a precise Digital Prescription to the Farmer via SMS while updating real-time metrics on the Supervisor Dashboard Hub.
+1. Service Request: The Farmer initiates a request from a feature phone using the USSD menu.
+2. Field Execution: The Field Expert arrives on-site, completes a secure handshake code, and logs soil diagnostics offline via the PWA app.
+3. Data Synchronization: The PWA automatically caches the logs locally and syncs them to the secure online databases when network coverage returns.
+4. Cloud Processing: The Cloud AI Engine analyzes the incoming data.
+5. Output Delivery: The AI engine instantly sends a precise Digital Prescription to the Farmer via SMS while updating real-time metrics on the Supervisor Dashboard Hub.
 ```
 
 ## Platform Stakeholders
